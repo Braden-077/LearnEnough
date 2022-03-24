@@ -39,12 +39,7 @@ git commit --amend
 # change 'add bazz' to 'add baz'
 :w
 :q
-cd ..
-cd ..
-git rm -f  --cached repos/website # created a repo within a repo earlier, this fixed this.
-git add -A 
-git commit -m 'fixing repo problem'
-cd repos/website
-open index.html
 git status
+git log
+# change to add h1 tag in index.html
 git diff
