@@ -43,3 +43,7 @@ git status
 git log
 # change to add h1 tag in index.html
 git diff
+git commit -am "Add an h1 tag"
+# add a p tag into index.html
+# add other text and headers into index.html
+git diff
