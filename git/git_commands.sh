@@ -48,3 +48,7 @@ git commit -am "Add an h1 tag"
 # add other text and headers into index.html
 git diff
 git commit -am "Add some HTML structure"
+# add html title
+git add -A 
+git commit -m 'chapter 1 completion'
+git push
