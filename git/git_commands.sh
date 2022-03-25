@@ -88,3 +88,29 @@ git add -A && git commit -m "Add About page"
 git commit -am "Add a link to the About page"
 git diff master # Note using main will change master to main, whatever you call your main git branch
 git chekout master 
+git checkout -b test-branch
+touch test.txt 
+git add -A 
+git commit -m 'test branch'
+git checkout master
+git branch -d test-branch # NOTE: expect error
+git branch -D test-branch
+git branch # Test to make sure branch was truly deleted.
+tail about.html
+echo >> about.html
+cat about.html
+git add -A 
+git status
+git diff 
+git checkout -f 
+git status
+git checkout -b test-branch 
+echo about.html
+git commit -am 'oops' 
+git checkout master 
+git branch -D test-branch
+git log 
+G 
+q
+git add -A 
+git commit -m 'End of chapter 3'
