@@ -11,6 +11,7 @@ git add -A
 git status
 git commit -m "Initialize git tutorial"
 git log
+q
 touch foo
 touch bar
 git add foo
@@ -41,6 +42,7 @@ git commit --amend
 :q
 git status
 git log
+q 
 # change to add h1 tag in index.html
 git diff
 git commit -am "Add an h1 tag"
@@ -65,3 +67,11 @@ git status
 git add -A 
 git commit -m 'Add an image'
 git push
+git log -p # this will put you in a less interface to easily search.
+/DOCTYPE # Searches the log for when we added our DOCTYPE to our index.html
+q 
+touch .unwanted_DS_Store
+git status 
+echo .unwanted_DS_Store > .gitignore
+cat .gitignore # Just to double check
+git status
