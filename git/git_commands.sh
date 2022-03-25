@@ -75,3 +75,12 @@ git status
 echo .unwanted_DS_Store > .gitignore
 cat .gitignore # Just to double check
 git status
+git add -A 
+git commit -m 'add .gitignore'
+git push
+git branch 
+git checkout -b about-page
+git branch # notice anything different? You created a new branch and now you're on it!
+cp index.html about.html
+open about.html # After we change the about.html file.
+git add -A && git commit -m "Add About page"
