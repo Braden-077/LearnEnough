@@ -52,3 +52,16 @@ git commit -am "Add some HTML structure"
 git add -A 
 git commit -m 'chapter 1 completion'
 git push
+# README file created
+git pull
+git push
+# NOTE: make sure you're still within the [websites]
+# to test this, run pwd and make sure it reads: /LearnEnough/git/repos/website
+mkdir images
+curl -o images/breaching_whale.jpg \
+> -L https://cdn.learnenough.com/breaching_whale.jpg # NOTE: do not include the '>' your terminal will automatically create that for you.
+git diff
+git status
+git add -A 
+git commit -m 'Add an image'
+git push
