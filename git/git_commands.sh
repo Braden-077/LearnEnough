@@ -86,3 +86,5 @@ open about.html # After we change the about.html file.
 git add -A && git commit -m "Add About page"
 # Now we change the index.html too
 git commit -am "Add a link to the About page"
+git diff master # Note using main will change master to main, whatever you call your main git branch
+git chekout master 
