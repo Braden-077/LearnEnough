@@ -9,7 +9,7 @@ To get started run these commands:
        $ git clone git@github.com:Braden-077/LearnEnough.git
        $ cd LearnEnough
 
-These tutorials are: [the command line](https://github.com/Braden-077/LearnEnough/new/master?readme=1#command-line), [git](https://github.com/Braden-077/LearnEnough/new/master?readme=1#git), [html](https://github.com/Braden-077/LearnEnough/new/master?readme=1#html), [css](https://github.com/Braden-077/LearnEnough/new/master?readme=1#css), [ruby](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ruby), and [test driven development](https://github.com/Braden-077/LearnEnough/new/master?readme=1#test-driven-development) tutorials, each one being a link to the respective tutorial.
+These tutorials are: [the command line](https://github.com/Braden-077/LearnEnough#command-line), [git](https://github.com/Braden-077/LearnEnough#git), [html](https://github.com/Braden-077/LearnEnough#html), [css](https://github.com/Braden-077/LearnEnough#css), [ruby](https://github.com/Braden-077/LearnEnough#ruby), and [test driven development](https://github.com/Braden-077/LearnEnough#test-driven-development) tutorials, each one being a link to the respective tutorial.
 
 # Command Line
 
@@ -21,7 +21,7 @@ This tutorial teaches users the command line and it's many uses, methods, and po
 
       $ cd command_line
 
-When you're finished, go to ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+When you're finished, go to ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # Git
 
@@ -33,7 +33,7 @@ This tutorial teaches users how to use Git and GitHub, as well as create an acco
 
       $ cd git
       
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+ When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
       
 # HTML
 
@@ -45,7 +45,7 @@ This tutorial teaches users HTML and how to use it for basic purposes. To get st
 
       $ cd html
       
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+ When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # CSS
  
@@ -59,7 +59,7 @@ This tutorial teaches users how to use CSS and how to turn HTML into a useful fr
 
       $ cd css
       
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+ When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # Ruby
 
@@ -71,7 +71,7 @@ This tutorial teaches Ruby, a useful back-end development tool. To get started w
 
       $ cd ruby
       
-When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # Test Driven Development
 
@@ -87,7 +87,7 @@ To get started with our Ruby on Rails Test Driven Development, run:
 
       $ cd rails
       
-When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough/new/master?readme=1#ending-a-tutorial).
+When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 
 # Ending a tutorial
