@@ -135,3 +135,4 @@ git commit -a # quit for error
 git commit -a # Add polar bear attribution link
 git checkout -b fix-trademark
 git commit -am 'Fix trademark character display'
+git push 
