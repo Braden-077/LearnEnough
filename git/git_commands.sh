@@ -114,3 +114,9 @@ G
 q
 git add -A 
 git commit -m 'End of chapter 3'
+mkdir -p tmp/website-copy
+cd tmp
+git clone git@github.com:Braden-077/LearnEnough.git website-copy
+# Note: Please be sure to delete all files except for our git file from the copy. Otherwise you risk many errors.
+cd website-copy
+# Changes were made into tmp/website-copy/git/repos/website to change our html.
