@@ -130,9 +130,29 @@ git push
 git add -A 
 git commit -m 'Use a longer image alt'
 git push 
-git config --global core.editor "code --wait"
+git config --global core.editor "code --wait" # for other text editors: https://docs.github.com/en/get-started/getting-started-with-git/associating-text-editors-with-git
 git commit -a # quit for error 
 git commit -a # Add polar bear attribution link
 git checkout -b fix-trademark
 git commit -am 'Fix trademark character display'
 git push 
+git checkout master 
+git merge fix-trademark
+git branch -d fix-trademark
+git branch # to make sure it was deleted
+git config --global alias.co checkout
+curl -o ~/.git-prompt.sh -L https://cdn.learnenough.com/git-prompt.sh
+curl -o ~/.git-completion.bash \ 
+>      -L https://cdn.learnenough.com/git-completion.bash
+chmod +x ~/.git-prompt.sh
+chmod +x ~/.git-completion.bash
+code ~/.bashrc
+git co -b really-really-long-branch-name
+# https://oliverspryn.blog/adding-git-completion-to-zsh-60f3b0e7ffbc
+# https://stackoverflow.com/questions/26462667/git-completion-not-working-in-zsh-on-os-x-yosemite-with-homebrew/26479426#26479426
+git co really-really-long-branch-name 
+git co master 
+git branch -d really-really-long-branch-name 
+git branch
+git add -A 
+git commit -m 'Finish git tutorial'
