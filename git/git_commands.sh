@@ -114,4 +114,7 @@ G
 q
 git add -A 
 git commit -m 'End of chapter 3'
-# Note: git clone was skipped over, but understood due to errors with branching and repos within repos. Also note that changes were made for 
+# Note: git clone was skipped over, but understood due to errors with branching and repos within repos. Also note that the changes were added regardless. 
+git add -A 
+git commit -m 'Add link to tutorial site'
+git push
