@@ -118,3 +118,9 @@ git commit -m 'End of chapter 3'
 git add -A 
 git commit -m 'Add link to tutorial site'
 git push
+git add -A 
+git commit -m 'Change page heading'
+curl -o images/polar_bear.jpg \
+>                           -L https://cdn.learnenough.com/polar_bear.jpg # Note: again, do not put the > as your machine will do that for you.
+git add -A 
+git commit -m 'Add an image'
