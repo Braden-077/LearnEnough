@@ -11,10 +11,7 @@ git add -A
 git status
 git commit -m "Initialize git tutorial"
 git log
-<<<<<<< HEAD
 q
-=======
->>>>>>> 52194dd (Finish Command Line Tutorial, Initialize Git)
 touch foo
 touch bar
 git add foo
@@ -43,7 +40,6 @@ git commit --amend
 # change 'add bazz' to 'add baz'
 :w
 :q
-<<<<<<< HEAD
 git status
 git log
 q 
@@ -160,7 +156,6 @@ git branch -d really-really-long-branch-name
 git branch
 git add -A 
 git commit -m 'Finish git tutorial'
-=======
 cd ..
 cd ..
 git rm -f  --cached repos/website # created a repo within a repo earlier, this fixed this.
@@ -170,4 +165,3 @@ cd repos/website
 open index.html
 git status
 git diff
->>>>>>> 52194dd (Finish Command Line Tutorial, Initialize Git)
