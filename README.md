@@ -1,6 +1,6 @@
 # LearnEnough
 
-This is a basic code learning repository, based off of Michael Hartl's [Learn Enough](https://www.learnenough.com/). It also has some [test driven development](https://www.learnhowtoprogram.com/ruby-and-rails/test-driven-development-with-ruby) using Ruby.
+This is a basic code learning repository, based off of Michael Hartl's [Learn Enough](https://www.learnenough.com/). It also has some [Test-Driven Development](https://www.learnhowtoprogram.com/ruby-and-rails/test-driven-development-with-ruby) using Ruby.
 
 # Getting started
 
