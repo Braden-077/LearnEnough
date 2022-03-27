@@ -130,3 +130,6 @@ git push
 git add -A 
 git commit -m 'Use a longer image alt'
 git push 
+git config --global core.editor "code --wait"
+git commit -a # quit for error 
+git commit -a # Add polar bear attribution link
