@@ -124,3 +124,9 @@ curl -o images/polar_bear.jpg \
 >                           -L https://cdn.learnenough.com/polar_bear.jpg # Note: again, do not put the > as your machine will do that for you.
 git add -A 
 git commit -m 'Add an image'
+git add -A 
+git commit -m 'Add necessary image alt'
+git push 
+git add -A 
+git commit -m 'Use a longer image alt'
+git push 
