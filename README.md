@@ -29,7 +29,7 @@ To get started with Git, go to the Micheal Hartl tutorial for [git](https://www.
 
 The ```LearnEnough/git/git_commands.sh``` file has all of the commands that get run during the git tutorial, as well as some failures and fixes I encountered. 
 
-Please note, you can open https://braden-077.github.io/LearnEnough/git/repos/website/index.html and you will see the completed git sample website.
+Please note, you can open [this link](https://braden-077.github.io/LearnEnough/git/repos/website/index.html) and you will see the completed git sample website.
 
 This tutorial teaches users how to use Git and GitHub, as well as create an account. To get started learning git, let's run:
 
