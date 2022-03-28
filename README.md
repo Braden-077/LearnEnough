@@ -39,7 +39,7 @@ This tutorial teaches users how to use Git and GitHub, as well as create an acco
 
 To get started on HTML, go to the Michael Hartl tutorial for [HTML](https://www.learnenough.com/html-tutorial).
 
-The ```html``` folder has all of the tutorial's code completed with commented failures and fixes.
+The ```LearnEnough/html/html_commands.sh``` file has all of the tutorial's code completed with commented failures and fixes.
 
 This tutorial teaches users HTML and how to use it for basic purposes. To get started learning HTML, run:
 
@@ -53,7 +53,7 @@ Note: HTML is a prerequisite for CSS.
 
 To get started with CSS, go to the Michael Hartl tutorial for [CSS](https://www.learnenough.com/css-and-layout-tutorial).
 
-The ```css``` folder has all of the tutorial's completed code with commented failures and fixes.
+The ```LearnEnough/css/css_commands``` file has all of the tutorial's completed code with commented failures and fixes.
 
 This tutorial teaches users how to use CSS and how to turn HTML into a useful front-end development tool. To get started with CSS, run:
 
@@ -65,7 +65,7 @@ This tutorial teaches users how to use CSS and how to turn HTML into a useful fr
 
 To get started with Ruby, go to the Michael Hartl tutorial for [Ruby](https://www.learnenough.com/ruby-tutorial).
 
-The ```ruby``` folder has all of the tutorial's completed code with commented failures and fixes.
+The ```LearnEnough/ruby/ruby_commands``` folder has all of the tutorial's completed code with commented failures and fixes.
 
 This tutorial teaches Ruby, a useful back-end development tool. To get started with Ruby, run:
 
@@ -81,7 +81,7 @@ To get started with test driven development, go to the [Ruby on Rails](https://w
 
 This specific repo only does [Week 1](https://www.learnhowtoprogram.com/ruby-and-rails/test-driven-development-with-ruby). 
 
-The ```rails``` folder holds the completed code for Test Driven Development week 1 as well as commented failures and fixes.
+The ```LearnEnough/rails/rails_commands``` folder holds the completed code for Test Driven Development week 1 as well as commented failures and fixes.
 
 To get started with our Ruby on Rails Test Driven Development, run:
 
