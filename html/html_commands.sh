@@ -4,3 +4,4 @@ mkdir -p repos/sample_website
 # https://braden-077.github.io/LearnEnough/README.md
 cd repos/sample_website
 open index.html 
+git commit -am 'Add a short paragraph'
