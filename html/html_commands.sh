@@ -13,3 +13,12 @@ curl -o images/kitten.jpg -L https://cdn.learnenough.com/kitten.jpg
 git add -A 
 git commit -m 'Add content and some images'
 git push 
+curl -o images/small_twitter_logo.png \
+>  -L https://cdn.learnenough.com/small_twitter_logo.png # Note: do not type the > symbol, your machine will automatically do this.
+touch tags.html
+open tags.html 
+curl -o images/storm_trooper_tagged.jpg \
+> -L https://cdn.learnenough.com/storm_trooper_tagged.jpg # Again, do not type the > symbol your machine will automatically do this.
+git add -A 
+git commit -m 'Add a tags page'
+git push 
