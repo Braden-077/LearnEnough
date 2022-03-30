@@ -8,3 +8,8 @@ git commit -am 'Add a short paragraph'
 git push
 git commit -am "Convert index page to fully valid HTML"
 git push
+mkdir images
+curl -o images/kitten.jpg -L https://cdn.learnenough.com/kitten.jpg
+git add -A 
+git commit -m 'Add content and some images'
+git push 
