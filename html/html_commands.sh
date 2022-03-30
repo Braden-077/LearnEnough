@@ -5,3 +5,6 @@ mkdir -p repos/sample_website
 cd repos/sample_website
 open index.html 
 git commit -am 'Add a short paragraph'
+git push
+git commit -am "Convert index page to fully valid HTML"
+git push
