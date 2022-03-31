@@ -29,3 +29,6 @@ open moby_dick.html
 git add -A 
 git commit -m 'Add a Moby Dick page and a menu'
 git push
+git add -A 
+git commit -m 'Chapter 4.6.1'
+git push
