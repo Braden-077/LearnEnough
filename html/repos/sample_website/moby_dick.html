@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style> 
+      a {
+        text-decoration: none;
+      }
+    </style>
     <title>Moby Dick</title>
     <meta charset="utf-8">
   </head>
   <body>
 
-    <div>
+    <div style="text-align: right;">
       <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html" style="margin: 0 0 0 10px;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px;">Moby Dick</a>
     </div>
 
     <!-- much here to be styled, will do so in last section -->
-    <div class='header'><h1 style="text-align: center;">A Softcover Book Report</h1></div>
-    <div class='header'><h2 style="text-align: center;">Moby-Dick (or, The Whale)</h2></div>
+    <header style="text-align: center; margin: 0 0 80px;">
+      <h1>A Softcover Book Report</h1>
+      <h2>Moby-Dick (or, The Whale)</h2>
+    </header>
 
     <div>
       <p>
@@ -31,10 +38,13 @@
     </div>
 
     <a href="https://commons.wikimedia.org/wiki/File:Sperm_whale_pod.jpg">
-      <img src="images/sperm_whales.jpg">
+      <img src="images/sperm_whales.jpg"
+      style="display: block; margin: 0 auto;">
     </a>
 
     <div>
+      <div style="width: 500px; margin: 20px auto; padding: 30px;
+      background-color: #fafafa;">
       <div class="header"><h2>Moby-Dick: A classic tale of the sea</h2></div>
 
       <a href="https://www.softcover.io/read/6070fb03/moby-dick"
@@ -66,7 +76,7 @@
         jillion pages. The only thing bigger than Moby Dick (who—<em>spoiler
         alert!</em>—is a giant white whale) is the book itself.
       </p>
-    </div>
+  
 
     <h4>Our top 3 favorite things about Moby Dick</h4>
 
@@ -78,16 +88,17 @@
 
     <h4>Other things about Moby Dick</h4>
 
-<ul>
-  <li>
-    Chapter after chapter (after chapter) of meticulous detail about whaling
-  </li>
-  <li>
-    The story pretty much
-    <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
-       target="_blank" rel="noopener">happened in real life</a>
-  </li>
-  <li>Mad sea captains are fun</li>
-</ul>
+  <ul>
+    <li>
+      Chapter after chapter (after chapter) of meticulous detail about whaling
+    </li>
+    <li>
+      The story pretty much
+      <a href="https://en.wikipedia.org/wiki/Essex_(whaleship)"
+         target="_blank" rel="noopener">happened in real life</a>
+    </li>
+    <li>Mad sea captains are fun</li>
+  </ul>
+  </div>
   </body>
 </html>
