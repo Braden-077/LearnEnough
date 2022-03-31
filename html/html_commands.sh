@@ -36,3 +36,7 @@ mkdir css
 touch css/main.css
 git add -A 
 git commit -m 'Refactor inline styles into a stylesheet'
+git push 
+git add -A 
+git commit -m 'Finish HTML tutorial'
+git push
