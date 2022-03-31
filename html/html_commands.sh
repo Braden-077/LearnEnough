@@ -32,3 +32,7 @@ git push
 git add -A 
 git commit -m 'Chapter 4.6.1'
 git push
+mkdir css
+touch css/main.css
+git add -A 
+git commit -m 'Refactor inline styles into a stylesheet'
