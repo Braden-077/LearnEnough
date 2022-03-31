@@ -22,3 +22,9 @@ curl -o images/storm_trooper_tagged.jpg \
 git add -A 
 git commit -m 'Add a tags page'
 git push 
+curl -o images/sperm_whales.jpg \
+>      -L https://cdn.learnenough.com/sperm_whales.jpg
+curl -o images/moby_dick.png -L https://cdn.learnenough.com/moby_dick.png
+open moby_dick.html
+git add -A 
+git commit -m 'Add a Moby Dick page and a menu'
