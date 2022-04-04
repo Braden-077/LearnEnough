@@ -51,11 +51,11 @@ This tutorial teaches users HTML and how to use it for basic purposes. To get st
 
 # CSS
  
-Note: HTML is a prerequisite for CSS.
+Note: [HTML](https://github.com/Braden-077/LearnEnough#html) is a prerequisite for CSS.
 
 To get started with CSS, go to the Michael Hartl tutorial for [CSS](https://www.learnenough.com/css-and-layout-tutorial).
 
-The ```LearnEnough/css/css_commands``` file has all of the tutorial's completed code with commented failures and fixes.
+The ```LearnEnough/css/css_commands.sh``` file has all of the tutorial's completed code with commented failures and fixes.
 
 This tutorial teaches users how to use CSS and how to turn HTML into a useful front-end development tool. To get started with CSS, run:
 
@@ -65,9 +65,9 @@ This tutorial teaches users how to use CSS and how to turn HTML into a useful fr
 
 # Ruby
 
-To get started with Ruby, go to the Michael Hartl tutorial for [Ruby](https://www.learnenough.com/ruby-tutorial).
+To get started with Ruby, go to the Michael Hartl tutorial for [Ruby](https://www.learnenough.com/ruby-tutorial). Please note, we run our Ruby in version ```3.1.1```.
 
-The ```LearnEnough/ruby/ruby_commands``` folder has all of the tutorial's completed code with commented failures and fixes.
+The ```LearnEnough/ruby/ruby_commands.sh``` folder has all of the tutorial's completed code with commented failures and fixes.
 
 This tutorial teaches Ruby, a useful back-end development tool. To get started with Ruby, run:
 
@@ -77,13 +77,13 @@ When you are finished, see ending a tutorial [here](https://github.com/Braden-07
 
 # Test Driven Development
 
-Note: Ruby is a prerequisite for Test Driven Development(TDD).
+Note: [Ruby](https://github.com/Braden-077/LearnEnough#ruby) is a prerequisite for Test Driven Development(TDD).
 
 To get started with test driven development, go to the [Ruby on Rails](https://www.learnhowtoprogram.com/ruby-and-rails) tutorial.
 
 This specific repo only does [Week 1](https://www.learnhowtoprogram.com/ruby-and-rails/test-driven-development-with-ruby). 
 
-The ```LearnEnough/rails/rails_commands``` folder holds the completed code for Test Driven Development week 1 as well as commented failures and fixes.
+The ```LearnEnough/rails/rails_commands.sh``` folder holds the completed code for Test Driven Development week 1 as well as commented failures and fixes.
 
 To get started with our Ruby on Rails Test Driven Development, run:
 
