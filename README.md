@@ -7,6 +7,7 @@ This is a basic code learning repository, based off of Michael Hartl's [Learn En
 To get started run these commands:
        
        $ git clone git@github.com:Braden-077/LearnEnough.git
+       $ bundle install
        $ cd LearnEnough
 
 These tutorials are: [the command line](https://github.com/Braden-077/LearnEnough#command-line), [git](https://github.com/Braden-077/LearnEnough#git), [html](https://github.com/Braden-077/LearnEnough#html), [css](https://github.com/Braden-077/LearnEnough#css), [ruby](https://github.com/Braden-077/LearnEnough#ruby), and [test driven development](https://github.com/Braden-077/LearnEnough#test-driven-development) tutorials, each one being a link to the respective tutorial.
