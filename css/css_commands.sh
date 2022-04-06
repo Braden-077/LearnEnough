@@ -13,4 +13,4 @@ git commit -m 'Complete chapter 2 of CSS'
 git add .
 git commit -m 'Chapter 3.1-3.5 completion'
 git add .
-git commit -m ''
+git commit -m 'CSS chapter 3.6-3.8 completion'
