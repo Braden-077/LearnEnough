@@ -6,7 +6,7 @@
     <style>
       /* GLOBAL STYLES */
       a {
-        color: #8533e8;
+        color: #f00;
       }
       h2 {
         font-size: 30px;
@@ -14,12 +14,33 @@
       body {
         height: 800px;
       }
-      /* html{background:red;} Note: this was created for the purpose of understanding how it works*/
+      html, body {
+      margin: 0;
+      padding: 0;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 7vw;
+      }
+      li {
+        list-style-type: none;
+      }
+
+      /* HERO STYLES */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+        width: 75vw;
+        display: inline;
+      }
 
       /* SOCIAL STYLES */
       .social-link {
-        background: rgba( 150, 150, 150, .2);
+        background: rgba( 150, 150, 150, .5);
         color: #00f;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
       }
 
       /* BIO STYLES */
@@ -27,11 +48,6 @@
         border: 1px solid #000;
         width: 50%;
         font-size: 1em;
-        padding: 20px; 
-        /* margin: 10%; */
-      }
-      .bio-wrapper {
-        font-size: 24px;
       }
       .bio-copy a {
         color: #008000;
@@ -39,15 +55,20 @@
       div.bio-box {
         border: 1px solid #000;
       }
+      .bio-box h3 {
+        font-size: 1.5em;
+      }
       .bio-copy {
         font-size: 1em;
+      }
+      .bio-copy a {
+        color: green;
       }
     </style>
   </head>
   <body>
-    <!-- <div style="border:1px solid #000;width: 30%;height:10%;">I'm a percent -->
-      <!-- test</div> -->
-    <h1><!-- <div class="social-link"> Note: Was created and used during an example and later changed.--> I'm an h1</div></h1>
+  <div class="full-hero hero-home">
+    <h1>I'm an h1</h1>
       <ul>
         <li>
           <a href="https://example.com/" class='social-link'>Link</a>
@@ -59,6 +80,7 @@
           <a href="https://example.com/" class='social-link'>Link</a>
         </li>
       </ul>
+  </div>
       <h2>I'm an h2</h2>
       <div class="bio-wrapper">
         <div class="bio-box">
