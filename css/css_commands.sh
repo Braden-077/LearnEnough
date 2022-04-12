@@ -19,3 +19,21 @@ git commit -m 'Chapter 4.1 completion'
 git add . 
 git commit -m 'Chapter 4.6 completion'
 git push
+bundle exec jekyll serve --port $PORT --host $IP
+# http://localhost:4000
+mkdir _layouts
+cp index.html _layouts/default.html
+touch _layouts/test.html 
+touch tested.html 
+bundle exec jekyll serve --port 1234 --host $IP
+# http://localhost:1234/
+mkdir css 
+touch css/main.css
+touch css/test.css 
+mv css/test.css css/reset.css
+mkdir _includes
+touch _includes/head.html
+touch _includes/header.html
+git add .
+git commit -m 'Chapter 5 - Jekyll'
+git push 

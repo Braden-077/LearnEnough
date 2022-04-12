@@ -4,6 +4,10 @@ source 'https://rubygems.org'
 
 ruby '~> 3.1.1'
 
+gem 'webrick'
+ 
+gem 'jekyll'
+
 group :development, :test do
   gem 'rspec'
 end
