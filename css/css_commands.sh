@@ -53,3 +53,13 @@ curl -o images/shark.jpg -L https://cdn.learnenough.com/le-css/shark.jpg
 mkdir gallery
 touch gallery/index.html
 touch gallery/test.html
+curl -OL https://cdn.learnenough.com/le-css/gallery.zip
+unzip gallery.zip -d images/
+rm gallery.zip
+mkdir _posts
+touch _posts/2016-11-03-title-of-post.md
+mkdir blog 
+touch blog/index.html
+git add .
+git commit -m 'Finish mobile prototype'
+git push
