@@ -46,4 +46,10 @@ touch _includes/footer.html
 touch _includes/nav-links.html
 git add .
 git commit -m 'finish initial layout'
-git push 
+git push
+echo 'For the fourth, and I hope final time, hello, world' > test.html
+touch _layouts/content.html
+curl -o images/shark.jpg -L https://cdn.learnenough.com/le-css/shark.jpg
+mkdir gallery
+touch gallery/index.html
+touch gallery/test.html
