@@ -37,3 +37,13 @@ touch _includes/header.html
 git add .
 git commit -m 'Chapter 5 - Jekyll'
 git push 
+git add . 
+git commit -m 'update css and README.md'
+git push 
+mkdir images
+curl -o images/logo.png -L https://cdn.learnenough.com/le-css/logo.png
+touch _includes/footer.html
+touch _includes/nav-links.html
+git add .
+git commit -m 'finish initial layout'
+git push 
