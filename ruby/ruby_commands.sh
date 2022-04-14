@@ -11,8 +11,11 @@ chmod +x hello
 ./hello
 ruby hello
 gem install sinatra
-bundle install 
 ruby hello_app.rb 
 git add . 
 git commit -m 'Gemfile and ruby initialize'
 git push 
+heroku version
+heroku create
+touch config.ru Gemfile
+bundle install
