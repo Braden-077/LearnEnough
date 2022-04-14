@@ -63,3 +63,8 @@ touch blog/index.html
 git add .
 git commit -m 'Finish mobile prototype'
 git push
+mkdir fonts
+curl -OL https://cdn.learnenough.com/le-css/favicon.png
+git add .
+git commit -m 'Finish css tutorial'
+git push 
