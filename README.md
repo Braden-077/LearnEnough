@@ -21,6 +21,9 @@ The ```LearnEnough/command_line/terminal_commands.sh``` file has all of the comm
 This tutorial teaches users the command line and it's many uses, methods, and power. To get here, let's run:    
 
       $ cd command_line
+      $ code . 
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```. 
 
 When you're finished, go to ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
@@ -35,8 +38,11 @@ Please note, you can open [this link](https://braden-077.github.io/LearnEnough/g
 This tutorial teaches users how to use Git and GitHub, as well as create an account. To get started learning git, let's run:
 
       $ cd git
-      
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
+      $ code .
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```. 
+
+When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
       
 # HTML
 
@@ -47,8 +53,11 @@ The ```LearnEnough/html/html_commands.sh``` file has all of the tutorial's code 
 This tutorial teaches users HTML and how to use it for basic purposes. To get started learning HTML, run:
 
       $ cd html
-      
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
+      $ code .
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```.       
+
+When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # CSS
  
@@ -61,8 +70,11 @@ The ```LearnEnough/css/css_commands.sh``` file has all of the tutorial's complet
 This tutorial teaches users how to use CSS and how to turn HTML into a useful front-end development tool. To get started with CSS, run:
 
       $ cd css
+      $ code .
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```. 
       
- When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
+When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
 # Ruby
 
@@ -73,6 +85,9 @@ The ```LearnEnough/ruby/ruby_commands.sh``` folder has all of the tutorial's com
 This tutorial teaches Ruby, a useful back-end development tool. To get started with Ruby, run:
 
       $ cd ruby
+      $ code .
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```. 
       
 When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 
@@ -89,6 +104,9 @@ The ```LearnEnough/rails/rails_commands.sh``` folder holds the completed code fo
 To get started with our Ruby on Rails Test Driven Development, run:
 
       $ cd rails
+      $ code .
+
+Note: if you're using text editors like Atom, Vim, Nano, or Sublime, these commands will change. Replace code with ```$ atom .```, ```$ vim .```, ```$ nano .```, or ```$ subl .```. 
       
 When you are finished, see ending a tutorial [here](https://github.com/Braden-077/LearnEnough#ending-a-tutorial).
 

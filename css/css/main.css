@@ -10,16 +10,23 @@ h1 {
 a {
   color: #f00;
 }
+h2 ~ p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
 
 
 /* HERO STYLES */
 .full-hero {
-  background-color: white;
+  background-color: #c7dbfc;
   height: 50vh;
 }
 .full-hero:hover,
 .full-hero:active {
-  background-color: #c7dbfc;
+  background-color: white;
 }
 
 /* SOCIAL STYLES */
@@ -127,4 +134,8 @@ a {
 }
 .header-nav > li:last-child a:hover {
   color: #000;
+}/* Testing with siblings, :last-child learning */
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1em;
 }
