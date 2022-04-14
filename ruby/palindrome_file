@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true 
+
+require 'mhartl_palindrome'
+
+lines = File.readlines("phrases.txt")
+lines.each do |line|
+  if line.palindrome?
+    puts "palindrome detected: #{line}"
+  end
+end
+
+palindromes = lines.select(&:palindrome?)
+palindromes.each { |palindrome| puts "palindrome detected: #{palindrome}" }
+File.write('palindromes_file.txt', palindromes.join)

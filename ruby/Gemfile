@@ -4,5 +4,11 @@ source 'https://rubygems.org'
 
 ruby '3.1.1'   # Change this line if you're using a different Ruby version.
 
+# Sinatra used for local hosting hello_app.rb
 gem 'sinatra', '2.2.0'
-gem 'puma',    '5.6.2'
+
+# puma is used as a web browser extension for the purpose of viewing sinatra.
+gem 'puma',    '5.6.4'
+
+# Rspec used for testing 
+gem 'rspec'

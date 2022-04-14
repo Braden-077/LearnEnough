@@ -1,0 +1,21 @@
+# frozen_string_literal: true 
+
+source 'https://rubygems.org'
+
+ruby '~> 3.1.1'
+
+gem 'sinatra'
+
+gem 'puma'
+
+gem 'rerun'
+
+gem 'mhartl_palindrome'
+
+group :test do
+  gem 'minitest'
+  gem 'minitest-reporters'
+  gem 'rack-test'
+  gem 'rake'
+  gem 'nokogiri', '>= 1.13.6'
+end
