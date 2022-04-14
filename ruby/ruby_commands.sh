@@ -19,3 +19,6 @@ heroku version
 heroku create
 touch config.ru Gemfile
 bundle install
+gem install bundler
+git add .
+git commit -m 'Add deployment config'
